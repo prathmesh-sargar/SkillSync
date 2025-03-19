@@ -79,11 +79,11 @@ const Navbar = () => {
             <Link to="/resources">Resource</Link>
             <Link to="/jobs">Jobs</Link>
             <Link to="/challenge">Challenges</Link>
-            <Link to="/ATS">ATS Resume</Link>
-            <Link to="/communicate">Improve Talk</Link>
+            <Link to="/ATS">Resume</Link>
+            <Link to="/communicate">Talk</Link>
             <Link to="/blogs">Blogs</Link>
             <Link to="/communityChat">Community</Link>
-            <Link to="/ytcontent">Search E</Link>
+            <Link to="/ytcontent">Search</Link>
           </>
         )}
       </div>
