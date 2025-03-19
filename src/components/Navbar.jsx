@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <div className="navbar bg-white text-black border border-gray-200 shadow-xl sticky  px-4 z-50">
       <div className="flex-1 text-2xl font-bold">
-        Skills<span className="text-xl font-bold text-purple-500">Sync</span>
+        Skill<span className="text-xl font-bold text-purple-500">Sync</span>
       </div>
       {/* Mobile Menu Button */}
       <div className="md:hidden flex items-center">
@@ -56,11 +56,11 @@ const Navbar = () => {
               <Link to="/resources" onClick={() => setMenuOpen(false)}>Resource</Link>
               <Link to="/jobs" onClick={() => setMenuOpen(false)}>Jobs</Link>
               <Link to="/challenge" onClick={() => setMenuOpen(false)}>Challenges</Link>
-              <Link to="/ATS" onClick={() => setMenuOpen(false)}>ATS Resume</Link>
-              <Link to="/communicate" onClick={() => setMenuOpen(false)}>Improve Talk</Link>
+              <Link to="/ATS" onClick={() => setMenuOpen(false)}>check Resume</Link>
+              <Link to="/communicate" onClick={() => setMenuOpen(false)}>Talk</Link>
               <Link to="/blogs" onClick={() => setMenuOpen(false)}>Blogs</Link>
               <Link to="/communityChat" onClick={() => setMenuOpen(false)}>Community</Link>
-              <Link to="/ytcontent" onClick={() => setMenuOpen(false)}>Search E</Link>
+              <Link to="/ytcontent" onClick={() => setMenuOpen(false)}>Search</Link>
             </>
           )}
         </div>
