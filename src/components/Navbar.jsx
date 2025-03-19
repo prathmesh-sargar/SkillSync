@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <div className="navbar bg-white text-black border border-gray-200 shadow-xl sticky  px-4 z-50">
       <div className="flex-1 text-2xl font-bold">
-        Skill<span className="text-xl font-bold text-purple-500">Sync</span>
+         <Link to="/">Skill<span className="text-xl font-bold text-purple-500">Sync</span></Link>
       </div>
       {/* Mobile Menu Button */}
       <div className="md:hidden flex items-center">
@@ -75,7 +75,6 @@ const Navbar = () => {
           </>
         ) : (
           <>
-            <Link to="/">Home</Link>
             <Link to="/resources">Resource</Link>
             <Link to="/jobs">Jobs</Link>
             <Link to="/challenge">Challenges</Link>
